@@ -585,6 +585,7 @@ nav ol {
 #mainav ul li:hover>ul {
 	visibility: visible;
 	opacity: 1;
+	transition:all 0.3s ease;
 }
 
 #mainav form {
@@ -765,6 +766,7 @@ nav ol {
 
 #backtotop:hover {
 	opacity: 1;
+	transition:all 0.3s ease;
 }
 
 
@@ -850,30 +852,38 @@ td {
 	background-color: #000000;
 }
 
-.faico a:hover {}
+.faico a:hover {
+	transition:all 0.3s ease;
+}
 
 .faicon-dribble:hover {
 	background-color: #EA4C89;
+	transition:all 0.3s ease;
 }
 
 .faicon-facebook:hover {
 	background-color: #3B5998;
+	transition:all 0.3s ease;
 }
 
 .faicon-google-plus:hover {
 	background-color: #DB4A39;
+	transition:all 0.3s ease;
 }
 
 .faicon-linkedin:hover {
 	background-color: #0E76A8;
+	transition:all 0.3s ease;
 }
 
 .faicon-twitter:hover {
 	background-color: #00ACEE;
+	transition:all 0.3s ease;
 }
 
 .faicon-vk:hover {
 	background-color: #4E658E;
+	transition:all 0.3s ease;
 }
 
 
@@ -946,8 +956,12 @@ textarea:focus,
 	color: #FFFFFF;
 	background-color: #CF9C67;
 	border-color: #CF9C67;
+	transition:all 0.3s ease;
 }
 
+.btn:hover{
+	transition:all 0.3s ease;
+}
 .btn:hover,
 .btn.inverse {
 	color: inherit;
@@ -957,11 +971,16 @@ textarea:focus,
 
 .imgover:hover::before {
 	background: rgba(0, 0, 0, .55);
+	transition:all 0.3s ease;
 }
 
 .imgover,
 .imgover:hover::after {
 	color: #FFFFFF;
+}
+
+.imgover:hover::after {
+	transition:all 0.3s ease;
 }
 
 
@@ -1032,6 +1051,14 @@ textarea:focus,
 	color: #FFFFFF;
 }
 
+.services>li>ul li:hover i {
+  transition:all 0.3s ease;
+}
+
+.services a:hover{
+	transition:all 0.3s ease;
+}
+
 .services a:hover,
 .services>li>ul li i {
 	color: #CF9C67;
@@ -1048,6 +1075,7 @@ textarea:focus,
 .cta:hover input {
 	color: #FFFFFF;
 	border-color: rgba(255, 255, 255, 1);
+	transition:all 0.3s ease;
 }
 
 .cta input:focus {
@@ -1122,11 +1150,20 @@ textarea:focus,
 	background-color: inherit;
 }
 
+#mainav a:hover,
+#mainav li:hover>a {
+	transition:all 0.3s ease;
+}
+
 #mainav li li a,
 #mainav .active li a {
 	color: #FFFFFF;
 	background-color: rgba(0, 0, 0, .2);
 	border-color: rgba(0, 0, 0, .2);
+}
+
+#mainav li li:hover>a{
+	transition:all 0.3s ease;
 }
 
 #mainav li li:hover>a,
@@ -1156,6 +1193,7 @@ textarea:focus,
 
 .container .sidebar nav a:hover {
   color: #CF9C67;
+	transition:all 0.3s ease;
 }
 
 .pagination a,
