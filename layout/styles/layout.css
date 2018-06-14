@@ -66,7 +66,10 @@
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
 #header {}
-
+#header .menuBtn{
+	width:40px;
+	height:40px;
+}
 #header #logo {
 	margin: 30px 0 0 0;
 }
@@ -1225,9 +1228,12 @@ table a,
 
 /* Max Wrapper Width - Laptop, Desktop etc. --------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width:978px) {
+@media screen and (min-width:901px) {
   .hoc {
-	  max-width: 978px;
+	  max-width: 901px;
+	}
+	#header .menuBtn{
+		display:none;
 	}
 }
 
@@ -1238,21 +1244,44 @@ table a,
 	.hoc {
 		max-width: 90%;
 	}
-
+	#mainav .menuBtn{
+		display:flex;
+		flex-direction:column;
+		justify-content:space-between;
+		height:20px;
+	}
+	.line{
+		display:block;
+		width:20px;
+		height:2px;
+		background:white;
+	}
 	#topbar {}
 
 	#header {
 		padding: 30px 0;
+		display:flex;
+		align-items:center;
+		justify-content:space-between;
 	}
 
 	#header #logo {
 		margin-top: 3px;
 	}
 
-	#mainav {}
+	/* TEST */
+	.menuContainter.on{
+	display:block;
+	position:fixed;
+	top:100px;
+	background:rgb(0,0,0,0.2);
+	width:100%;
+	text-align:center;
+	left:0;
+	}
 
-	#mainav ul {
-		display: none;
+	.menuContainter {
+		display:none;
 	}
 
 	#mainav form {

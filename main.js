@@ -1,3 +1,4 @@
+// ScrollTop
 var lastScrollPosition = 0;
 var currentScrollPosition = 0;
 var ticking = false;
@@ -49,3 +50,10 @@ window.onload = function(){
  console.log(header);
    document.addEventListener('scroll', onScroll, false);
 }
+// burger menu
+
+var mainav = document.querySelector('.menuContainter');
+var menuBtn =  document.querySelector('.menuBtn');
+menuBtn.addEventListener('click',function(){
+  mainav.classList.toggle('on');
+})
