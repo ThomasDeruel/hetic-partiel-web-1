@@ -1306,6 +1306,11 @@ table a,
 		height:2px;
 		background:white;
 	}
+	.nospace.inline.pushright{
+		display:flex;
+		width:100%;
+		justify-content:space-around;
+	}
 	#topbar {}
 
 	#header {
