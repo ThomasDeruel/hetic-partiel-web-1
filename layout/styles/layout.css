@@ -49,7 +49,20 @@
 	line-height: normal;
 }
 
+/* Header scroll -------------------------------------------------------------------------------------------------*/
+.scroll-on {
+  transform: translateY(0);
+}
 
+.scroll-off {
+  transform: translateY(-250px);
+}
+#headerScroll {
+  position: fixed;
+  width: 100%;
+  will-change: transform;
+  transition: transform 0.15s ease-in-out;
+}
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
 #header {}
