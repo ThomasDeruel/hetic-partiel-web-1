@@ -2,16 +2,32 @@
 @import url("font-awesome.min.css");
 @import url("framework.css");
 
+/* background image ---------------------------------------------*/
+#top .bgded.overlay.light {
+	background-image: url('https://taoprestige.fr/wp-content/uploads/2017/01/Assis-dirigeant-visuel3.jpg');
+}
+.wrapper.row2.bgded.overlay.one{
+ 	background-image: url('../../images/demo/backgrounds/image02.jpg');
+}
+.wrapper.row2.bgded.overlay.two{
+	background-image: url('../../images/demo/backgrounds/image03.jpg');
+}
+
+.wrapper.row2.bgded.overlay.three{
+	background-image: url('../../images/demo/backgrounds/image04.jpg');
+	background-size: cover;
+	background-position: center;
+}
 /* Top Bar --------------------------------------------------------------------------------------------------------------- */
 
 #topbar {
-	padding: 15px 0;
-	font-size: .8rem;
-	text-transform: uppercase;
+  padding: 15px 0;
+  font-size: .8rem;
+  text-transform: uppercase;
 }
 
 #topbar * {
-	margin: 0;
+  margin: 0;
 }
 
 #topbar ul {
@@ -43,7 +59,7 @@
 }
 
 #header #logo h1 {
-	margin: 0;
+  margin: 0;
 	padding: 0;
 	font-size: 22px;
 	text-transform: uppercase;
