@@ -47,8 +47,7 @@ var header = null;
 
 window.onload = function(){
  header = document.getElementById('headerScroll');
- console.log(header);
-   document.addEventListener('scroll', onScroll, false);
+ document.addEventListener('scroll', onScroll, false);
 }
 // burger menu
 
@@ -56,4 +55,9 @@ var mainav = document.querySelector('.menuContainter');
 var menuBtn =  document.querySelector('.menuBtn');
 menuBtn.addEventListener('click',function(){
   mainav.classList.toggle('on');
+})
+//btn scroll to top
+var arrowBtn = document.querySelector('.arrow');
+  arrowBtn.addEventListener('click',function(){
+    window.scrollTo({top: 0, behavior: 'smooth'});
 })
