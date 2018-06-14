@@ -1,5 +1,3 @@
-
-
 @charset "utf-8";
 @import url("font-awesome.min.css");
 @import url("framework.css");
@@ -1104,21 +1102,21 @@ textarea:focus,
 }
 
 #breadcrumb li:last-child a {
-	color: #CF9C67;
+  color: #CF9C67;
 }
 
 .container .sidebar nav a {
-	color: inherit;
+  color: inherit;
 	border-color: #D7D7D7;
 }
 
 .container .sidebar nav a:hover {
-	color: #CF9C67;
+  color: #CF9C67;
 }
 
 .pagination a,
 .pagination strong {
-	border-color: #D7D7D7;
+  border-color: #D7D7D7;
 }
 
 .pagination .current * {
@@ -1140,17 +1138,17 @@ td,
 #comments .avatar,
 #comments input,
 #comments textarea {
-	border-color: #D7D7D7;
+  border-color: #D7D7D7;
 }
 
 #comments input:focus,
 #comments textarea:focus,
 #comments *:required:focus {
-	border-color: #CF9C67;
+  border-color: #CF9C67;
 }
 
 th {
-	color: #FFFFFF;
+  color: #FFFFFF;
 	background-color: #373737;
 }
 
@@ -1158,7 +1156,7 @@ tr,
 #comments li,
 #comments input[type="submit"],
 #comments input[type="reset"] {
-	color: inherit;
+  color: inherit;
 	background-color: #FBFBFB;
 }
 
@@ -1170,7 +1168,7 @@ tr:nth-child(even),
 
 table a,
 #comments a {
-	background-color: inherit;
+  background-color: inherit;
 }
 
 
@@ -1199,8 +1197,8 @@ table a,
 /* Max Wrapper Width - Laptop, Desktop etc. --------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width:978px) {
-	.hoc {
-		max-width: 978px;
+  .hoc {
+	  max-width: 978px;
 	}
 }
 
@@ -1211,31 +1209,44 @@ table a,
 	.hoc {
 		max-width: 90%;
 	}
+
 	#topbar {}
+
 	#header {
 		padding: 30px 0;
 	}
+
 	#header #logo {
 		margin-top: 3px;
 	}
+
 	#mainav {}
+
 	#mainav ul {
 		display: none;
 	}
+
 	#mainav form {
 		display: block;
 	}
+
 	#breadcrumb {}
+
 	.container {}
+
 	#comments input[type="reset"] {
 		margin-top: 10px;
 	}
+
 	.pagination li {
 		display: inline-block;
 		margin: 0 5px 5px 0;
 	}
+
 	#footer {}
+
 	#copyright {}
+
 	#copyright p:first-of-type {
 		margin-bottom: 10px;
 	}
@@ -1248,11 +1259,13 @@ table a,
 		float: none;
 		margin: 0 0 10px 0;
 	}
+
 	.fl_left,
 	.fl_right {
 		display: block;
 		float: none;
 	}
+
 	.group .group>*:last-child,
 	.clear .clear>*:last-child,
 	.clear .group>*:last-child,
@@ -1272,28 +1285,36 @@ table a,
 		margin: 0 0 30px 0;
 		padding: 0;
 	}
+
 	#header {
 		text-align: center;
 	}
+
 	#header #logo {
 		margin: 0 0 15px 0;
 	}
+
 	#pageintro article {
 		max-width: none;
 		text-align: left;
 	}
+
 	#pageintro .heading {
 		font-size: 2rem;
 	}
+
 	.sectiontitle {
 		max-width: none;
 	}
+
 	.services+footer {
 		text-align: left;
 	}
+
 	.cta> :first-child {
 		margin-top: 0;
 	}
+
 }
 
 
@@ -1308,23 +1329,27 @@ table a,
 		overflow: auto;
 		overflow-x: scroll;
 	}
+
 	.scrollable table {
 		margin: 0;
 		padding: 0;
 		white-space: nowrap;
 	}
+
 	.inline li {
 		display: block;
 		margin-bottom: 10px;
 	}
+
 	.pushright li {
 		margin-right: 0;
 	}
+
 	.font-x2 {
 		font-size: 1.4rem;
 	}
+
 	.font-x3 {
 		font-size: 1.6rem;
 	}
 }
-
